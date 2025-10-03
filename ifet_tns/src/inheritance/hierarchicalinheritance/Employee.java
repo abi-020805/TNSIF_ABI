@@ -1,5 +1,5 @@
 //Program to demonstrate Hierarchical Inheritance - Employee Class
-package inheritance.hierarchicalinheritance;
+package inheritance.tnsif.hierarchicalinheritance;
 public class Employee extends Person{
 	private int empId;
 	private float salary;
@@ -12,7 +12,7 @@ public class Employee extends Person{
 
 
 	public Employee(int empId, float salary, String dept) {
-		this.empId = empId; //refers to current obj
+		this.empId = empId;
 		this.salary = salary;
 		this.dept = dept;
 	}
